@@ -16,64 +16,59 @@
 
 ---
 
-<div align="center">
-  
-## ОСНОВНІ ПРИНЦИПИ
-### Створено для безкомпромісної довіри.
+**SABIR VAULT** is an enterprise-grade local platform for automated document processing, entity extraction, relationship graph construction, and digital dossier generation.
 
-</div>
-
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 20px; margin: 40px 0;">
-
-<div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-<div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-🔒
-</div>
-<h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Локальна обробка</h3>
-<p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Уся обробка документів відбувається у вашій приватній інфраструктурі. Обов'язкова хмарна обробка відсутня.</p>
-</div>
-
-<div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-<div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-📊
-</div>
-<h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Структурований аналіз</h3>
-<p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Перетворює розрізнені документи на структуровані датасети, сутності, зв'язки та цифрові досьє.</p>
-</div>
-
-<div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-<div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-👥
-</div>
-<h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Двоетапна верифікація</h3>
-<p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Спліт-в'ю робочий простір із роздільними етапами перевірки графа зв'язків та матриць фактів, з автозбереженням аудит-сліду.</p>
-</div>
-
-<div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-<div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-🛡️
-</div>
-<h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Безпека за замовчуванням</h3>
-<p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Zero-Trust прийом файлів із локальним антивірусним пісочницьким скануванням ClamAV, розпаковкою зашифрованих ZIP та ізольованим виконанням конвеєра.</p>
-</div>
-
-<div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
-<div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-🔑
-</div>
-<h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Zero-Knowledge прийом (AES-256-GCM)</h3>
-<p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Автономна браузерна утиліта шифрування дозволяє клієнтам і адвокатам локально запечатувати архіви у зашифровані .enc-контейнери перед передачею.</p>
-</div>
-
-</div>
+Designed for organizations and professionals working with large volumes of confidential documentation in controlled, privacy-first environments.
 
 ---
 
 ## 📌 Quick Links
 
-- ️ [Architecture](./ARCHITECTURE.md)
+- 🏗️ [Architecture](./ARCHITECTURE.md)
 - 🛡️ [Security](./SECURITY.md)
 - 🗺️ [Roadmap](./ROADMAP.md)
+
+---
+
+<div align="center">
+
+## 🌍 English Version
+### Built for uncompromising trust.
+
+</div>
+
+**🔒 Local Processing**  
+All document processing occurs entirely within your private infrastructure. No mandatory cloud processing.
+
+**📊 Structured Intelligence**  
+Transforms disconnected documents into structured datasets, entities, relationships, and digital dossiers.
+
+**👥 Dual-Stage Verification**  
+Stateful Split-View workspace with separate verification passes for entity relationship graphs and deep fact matrices, with auto-save audit trail.
+
+**🛡️ Security by Design**  
+Zero-Trust file ingestion featuring local ClamAV antivirus sandboxing, encrypted ZIP unpacking, and memory-isolated pipeline execution.
+
+---
+
+<div align="center">
+
+## 🇺🇦 Українська версія
+### Створено для безкомпромісної довіри.
+
+</div>
+
+**🔒 Локальна обробка**  
+Уся обробка документів відбувається у вашій приватній інфраструктурі. Обов'язкова хмарна обробка відсутня.
+
+**📊 Структурований аналіз**  
+Перетворює розрізнені документи на структуровані датасети, сутності, зв'язки та цифрові досьє.
+
+**👥 Двоетапна верифікація**  
+Спліт-в'ю робочий простір із роздільними етапами перевірки графа зв'язків та матриць фактів, з автозбереженням аудит-сліду.
+
+**🛡️ Безпека за замовчуванням**  
+Zero-Trust прийом файлів із локальним антивірусним пісочницьким скануванням ClamAV, розпаковкою зашифрованих ZIP та ізольованим виконанням конвеєра.
 
 ---
 
@@ -103,7 +98,7 @@ flowchart TD
 | :--- | :--- |
 | 📋 **Digital Dossiers** | Transform 100+ unorganized document scans into a single structured master dossier within minutes. |
 | 🔍 **Due Diligence Support** | Rapidly audit asset history, ownership chains, and missing document requirements (Gap Analysis). |
-| ️ **Corporate & Family Compliance** | Detect conflicts of interest, related-party transactions, and hidden proxies. |
+| ⚖️ **Corporate & Family Compliance** | Detect conflicts of interest, related-party transactions, and hidden proxies. |
 | 🌐 **RWA Pre-Tokenization** | Prepare structured, tamper-proof document packages for Real World Asset (RWA) tokenization and smart contract integration. |
 | 🏛️ **Digital Legacy Archiving** | Preserve verified historical archives for family offices and long-term asset management. |
 
