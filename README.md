@@ -2,13 +2,13 @@
 
 # 🏛️ SABIR VAULT — Digital Dossier Platform
 
-[![Status](https://img.shields.io/badge/Status-Private%20Enterprise-red)](#-contact--evaluation)
-[![Version](https://img.shields.io/badge/Version-4.12.8-blue)](#)
-[![License](https://img.shields.io/badge/License-Proprietary-orange)](#-contact--evaluation)
-[![Security: Zero-Trust](https://img.shields.io/badge/Security-Zero--Trust-blue.svg)](#-core-principles)
-[![Deployment: Local First](https://img.shields.io/badge/Deployment-Local--First-green.svg)](#-core-principles)
-[![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
+[![Status](https://img.shields.io/badge/Status-Private%20Enterprise-2d3748)](#-contact--evaluation)
+[![Version](https://img.shields.io/badge/Version-4.12.8-2d3748)](#)
+[![License](https://img.shields.io/badge/License-Proprietary-2d3748)](#-contact--evaluation)
+[![Security](https://img.shields.io/badge/Security-Zero--Trust-2d3748)](#-core-principles)
+[![Deployment](https://img.shields.io/badge/Deployment-Local--First-2d3748)](#-core-principles)
+[![Python](https://img.shields.io/badge/Python-3.11+-2d3748)](https://www.python.org/)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.0-2d3748)](https://www.typescriptlang.org/)
 
 > **Structured Documents. Trusted Decisions.**
 
@@ -43,7 +43,7 @@
 
 <div style="background: linear-gradient(145deg, #1a1f2e 0%, #0d1117 100%); border: 1px solid #30363d; border-radius: 12px; padding: 30px; box-shadow: 0 4px 20px rgba(0,0,0,0.3);">
 <div style="background: #161b22; width: 50px; height: 50px; border-radius: 10px; display: flex; align-items: center; justify-content: center; margin-bottom: 20px; border: 1px solid #30363d;">
-
+👥
 </div>
 <h3 style="color: #ffffff; margin: 0 0 12px 0; font-size: 18px;">Двоетапна верифікація</h3>
 <p style="color: #8b949e; margin: 0; line-height: 1.6; font-size: 14px;">Спліт-в'ю робочий простір із роздільними етапами перевірки графа зв'язків та матриць фактів, з автозбереженням аудит-сліду.</p>
@@ -71,7 +71,7 @@
 
 ## 📌 Quick Links
 
-- ️ [Architecture](./ARCHITECTURE.md)
+- 🏗️ [Architecture](./ARCHITECTURE.md)
 - 🛡️ [Security](./SECURITY.md)
 - 🗺️ [Roadmap](./ROADMAP.md)
 
@@ -85,19 +85,19 @@ flowchart TD
     B --> C[🧠 Extraction Engine<br/><i>Atomic Fact & Entity Extraction</i>]
     C --> D[👤 Organizer<br/><i>Verification Layer / Human Review</i>]
     D --> E[📊 Verified Digital Dossier<br/><i>JSON / Markdown / Interactive Graph</i>]
-    E --> F[🚀 Export & Decision Support]
+    E --> F[📄 Export & Decision Support]
 
-    style A fill:#f9f9f9,stroke:#333,stroke-width:1px
-    style B fill:#e1f5fe,stroke:#0288d1,stroke-width:1.5px
-    style C fill:#eddcd2,stroke:#b08968,stroke-width:1.5px
-    style D fill:#fff3e0,stroke:#f57c00,stroke-width:1.5px
-    style E fill:#e8f5e9,stroke:#388e3c,stroke-width:1.5px
-    style F fill:#f3e5f5,stroke:#7b1fa2,stroke-width:1.5px
+    style A fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style B fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style C fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style D fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style E fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style F fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
 ```
 
 ---
 
-## 🎯 Target Solutions
+##  Target Solutions
 
 | Solution | Description |
 | :--- | :--- |
@@ -121,33 +121,6 @@ flowchart TD
 <div align="center">
 
 ## 📞 Contact & Evaluation
-
-🌐 **Website:** [www.sabirvault.com](http://www.sabirvault.com)  
-✉️ **Email:** [contact@sabirvault.com](mailto:contact@sabirvault.com)  
-📌 **Status:** Private Enterprise Development  
-📜 **License:** Proprietary / Enterprise Evaluation  
-
-<br>
-<sub>© 2026 SABIR VAULT. All rights reserved.</sub>
-</div>| 🔍 **Due Diligence Support** | Rapidly audit asset history, ownership chains, and missing document requirements (Gap Analysis). |
-| ⚖️ **Corporate & Family Compliance** | Detect conflicts of interest, related-party transactions, and hidden proxies. |
-| 🌐 **RWA Pre-Tokenization** | Prepare structured, tamper-proof document packages for Real World Asset (RWA) tokenization and smart contract integration. |
-| 🏛️ **Digital Legacy Archiving** | Preserve verified historical archives for family offices and long-term asset management. |
-
----
-
-## ⚖️ Important Notice
-
-> [!IMPORTANT]
-> **Legal Disclaimer**  
-> SABIR VAULT is an IT analytical software platform and does not constitute a law firm or render legal advice.  
-> The platform prepares structured digital dossiers and risk flags to support professional analysis, auditing, and decision-making by qualified experts.
-
----
-
-## 📞 Contact & Evaluation
-
-<div align="center">
 
 🌐 **Website:** [www.sabirvault.com](http://www.sabirvault.com)  
 ✉️ **Email:** [contact@sabirvault.com](mailto:contact@sabirvault.com)  
