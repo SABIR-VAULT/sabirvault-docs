@@ -5,8 +5,8 @@
 [![Status](https://img.shields.io/badge/Status-Private%20Enterprise-red)](#-contact--evaluation)
 [![Version](https://img.shields.io/badge/Version-4.12.8-blue)](#)
 [![License](https://img.shields.io/badge/License-Proprietary-orange)](#-contact--evaluation)
-[![Security](https://img.shields.io/badge/Security-Zero--Trust-blue.svg)](#-core-principles)
-[![Deployment](https://img.shields.io/badge/Deployment-Local--First-green.svg)](#-core-principles)
+[![Security: Zero-Trust](https://img.shields.io/badge/Security-Zero--Trust-blue.svg)](#-core-principles)
+[![Deployment: Local First](https://img.shields.io/badge/Deployment-Local--First-green.svg)](#-core-principles)
 [![Python](https://img.shields.io/badge/Python-3.11+-blue.svg)](https://www.python.org/)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.0-blue.svg)](https://www.typescriptlang.org/)
 
