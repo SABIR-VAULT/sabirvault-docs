@@ -71,7 +71,7 @@
 
 ## 📌 Quick Links
 
-- 🏗️ [Architecture](./ARCHITECTURE.md)
+- ️ [Architecture](./ARCHITECTURE.md)
 - 🛡️ [Security](./SECURITY.md)
 - 🗺️ [Roadmap](./ROADMAP.md)
 
@@ -87,17 +87,17 @@ flowchart TD
     D --> E[📊 Verified Digital Dossier<br/><i>JSON / Markdown / Interactive Graph</i>]
     E --> F[📄 Export & Decision Support]
 
-    style A fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
-    style B fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
-    style C fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
-    style D fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
-    style E fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
-    style F fill:#1a2332,stroke:#2d3748,stroke-width:2px,color:#e2e8f0
+    style A fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
+    style B fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
+    style C fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
+    style D fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
+    style E fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
+    style F fill:none,stroke:#ffffff,stroke-width:2px,color:#b0b8c1
 ```
 
 ---
 
-##  Target Solutions
+## 🎯 Target Solutions
 
 | Solution | Description |
 | :--- | :--- |
