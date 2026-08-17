@@ -1,59 +1,103 @@
-<div align="center">
+# 📦 SABIR VAULT — Release Notes
 
-# 📦 SABIR VAULT — Changelog
-
-[![Version](https://img.shields.io/badge/Version-4.12.8-2d3748)](#)
-[![Status](https://img.shields.io/badge/Status-Active-2d3748)](#)
-
-> **Enterprise Document Intelligence Platform**
-
-</div>
+**Platform Evolution Highlights**  
+*Last Updated: August 2026*
 
 ---
 
-## [4.12.8] — 2026-07-26
+## 🏆 August 2026 — Enterprise Release
 
-### ✅ Added
-- Self-Learning JSON Expansion Advisor
-- Financial Flow Audit Module
-- Conflict of Interest Detection
+### Core Verification Architecture
+- **376+ automated checks** per commit (execution <2 seconds)
+- **5-tier verification stack**:
+  - Exhaustive mathematical models (141 formally proven states)
+  - Core test suite (199 unit tests in 0.84s)
+  - Behavioral satellite suite (32 mini-dossiers)
+  - Constitutional invariants (4 non-negotiable guards)
+  - Macro benchmarks (2 cases, 800 documents)
 
-### 🚀 Improved
-- Forensic Graph Resolver performance
-- Document intake pipeline stability
+### Investigation Capabilities
+- **6 universal investigation routes**:
+  - Financial mismatch detection
+  - Ownership change analysis
+  - Related party chain mapping
+  - Signature conflict detection
+  - Debt concealment analysis
+  - Asset stripping identification
 
-### 🐞 Fixed
-- Same-name collision protection
-- Gender Guard edge cases
+### Security & Privacy
+- **100% Air-Gapped operation** (Zero-Cloud)
+- **SHA-256 evidence audit trail**
+- **Secure document ingestion** with antivirus protection
 
----
-
-## [4.12.7] — 2026-07-20
-
-### ✅ Added
-- Interactive Verification Workspace
-- Cryptographic Audit Trail
-
-### 🐞 Fixed
-- EXIF timestamp parsing
-
----
-
-## [4.12.6] — 2026-07-10
-
-### ✅ Added
-- Zero-Trust Ingestion Gateway
-- Automated Gap Analysis
+### Multi-Jurisdictional Support
+- Declarative JSON configuration for legal rules
+- Supported jurisdictions: 🇺🇦 UA, 🇺🇸 US, 🇩🇪 DE, 🇵🇱 PL, 🇰🇿 KZ
+- New jurisdictions: 15-minute configuration without code changes
 
 ---
 
-<div align="center">
+## 🚀 Previous Milestones
 
-## 📞 Contact
+### July 2026 — Interactive Workbench
+- Human-in-the-Loop verification workspace
+- 2-3 minute lawyer review process
+- Cryptographic evidence logging
 
-🌐 **Website:** [www.sabirvault.com](http://www.sabirvault.com)  
-✉️ **Email:** [contact@sabirvault.com](mailto:contact@sabirvault.com)
+### July 2026 — Zero-Trust Security
+- Isolated sandbox ingestion gateway
+- Automated compliance gap analysis
 
-<br>
-<sub>© 2026 SABIR VAULT. All rights reserved.</sub>
-</div>
+### July 2026 — AI Perception Enhancement
+- Local 9B multimodal Vision-LLM integration
+- Advanced handwriting and stamp detection
+- Native Excel parsing without OCR
+
+---
+
+## 📊 Performance Metrics
+
+| Metric | Value |
+|---|---|
+| Automated checks | 376+ |
+| Core unit tests | 199 in 0.84s |
+| Formally proven states | 141 |
+| Behavioral satellites | 32 |
+| Benchmark documents | 800 |
+| Power consumption | 15W |
+| Battery autonomy | 17 hours |
+
+---
+
+## 🔒 Security Highlights
+
+- ✅ **Zero-Cloud** architecture
+- ✅ **Air-Gapped** operation
+- ✅ **SHA-256** evidence logs
+- ✅ **Antivirus** protection
+- ✅ **Sandboxed** ingestion
+
+---
+
+## 🌍 Jurisdiction Support
+
+| Country | Registries |
+|---|---|
+| 🇺🇦 Ukraine | EDR, RNOKPP |
+| 🇺🇸 USA | IRS, UCC |
+| 🇩🇪 Germany | Handelsregister, BGB |
+| 🇵🇱 Poland | KRS, NIP/PESEL |
+| 🇰🇿 Kazakhstan | BIN/IIN |
+
+---
+
+## 📌 Upcoming Roadmap
+
+- Additional jurisdictions
+- Enhanced visualization dashboards
+- API integration for enterprise systems
+- Automated report generation
+
+---
+
+© 2026 SABIR VAULT. All rights reserved.
