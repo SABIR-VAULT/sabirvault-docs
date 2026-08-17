@@ -104,6 +104,7 @@
 
 ---
 
+<pre>
 Q1 2026 ████████████████████ Phase 1 (Core Engine)
 Q2 2026 ████████████████████ Phase 1 (Core Engine)
 Q2 2026 ████████████████████ Phase 2 (Verification)
@@ -114,7 +115,7 @@ Q1 2027 ████░░░░░░░░░░░░░░░░ Phase 4 (RW
 Q2 2027 ██████████░░░░░░░░░░ Phase 4 (RWA Ecosystem)
 Q3 2027 ████████████████░░░░ Phase 4 (RWA Ecosystem)
 Q4 2027 ████████████████████ Phase 4 (RWA Ecosystem)
-
+</pre>
 
 ---
 
