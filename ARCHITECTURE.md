@@ -8,49 +8,50 @@
 ---
 
 ## 📐 High-Level Architecture
-500+ Raw Documents (PDF, DOCX, Photos, Scans, XLSX)
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ 📥 SECURE INGESTION GATEWAY │
-│ • Archive unpacking (ZIP, RAR, 7z) │
-│ • Antivirus quarantine & sandbox protection │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ 👁️ LOCAL 9B MULTIMODAL PERCEPTION │
-│ • OCR, handwriting, stamp detection │
-│ • Native Excel parsing (0.1s, no OCR) │
-│ • AI strictly for reading only │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ 🧮 DETERMINISTIC FORENSIC KERNEL (10,400+ lines) │
-│ • Entity resolution & deduplication │
-│ • Graph theory & concentric rings topology │
-│ • Constitutional invariants enforcement │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ 🛣️ INVESTIGATION ROUTE ENGINE (6 Tracers) │
-│ • Financial, corporate, and fraud detection │
-│ • Autonomous narrative construction │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-┌─────────────────────────────────────────────────────────────┐
-│ 👤 HUMAN-IN-THE-LOOP WORKBENCH │
-│ • Lawyer verification (2-3 min) │
-│ • 1-click anchor & relationship validation │
-└─────────────────────────────────────────────────────────────┘
-│
-▼
-📄 Interactive Dashboard + Evidence Audit Trail
 
-text
+```text
+500+ Raw Documents (PDF, DOCX, Photos, Scans, XLSX)
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 📥 SECURE INGESTION GATEWAY                               │
+│ • Archive unpacking (ZIP, RAR, 7z)                        │
+│ • Antivirus quarantine & sandbox protection               │
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 👁️ LOCAL 9B MULTIMODAL PERCEPTION                         │
+│ • OCR, handwriting, stamp detection                       │
+│ • Native Excel parsing (0.1s, no OCR)                     │
+│ • AI strictly for reading only                            │
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 🧮 DETERMINISTIC FORENSIC KERNEL (10,400+ lines)          │
+│ • Entity resolution & deduplication                       │
+│ • Graph theory & concentric rings topology                │
+│ • Constitutional invariants enforcement                   │
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 🛣️ INVESTIGATION ROUTE ENGINE (6 Tracers)                 │
+│ • Financial, corporate, and fraud detection               │
+│ • Autonomous narrative construction                       │
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+┌─────────────────────────────────────────────────────────────┐
+│ 👤 HUMAN-IN-THE-LOOP WORKBENCH                            │
+│ • Lawyer verification (2-3 min)                           │
+│ • 1-click anchor & relationship validation                │
+└─────────────────────────────────────────────────────────────┘
+                        │
+                        ▼
+              📄 Interactive Dashboard + Evidence Audit Trail
+```
 
 ---
 
