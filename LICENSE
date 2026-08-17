@@ -1,30 +1,186 @@
-SABIR VAULT ENTERPRISE EDITION
-PROPRIETARY AND CONFIDENTIAL LICENSE AGREEMENT
+# SABIR VAULT ENTERPRISE EDITION
+# PROPRIETARY AND CONFIDENTIAL LICENSE AGREEMENT
+
+**Effective Date:** August 17, 2026  
+**Jurisdiction:** Ukraine / International Commercial Arbitration
+
+---
+
+## COPYRIGHT NOTICE
 
 Copyright (c) 2026 Sabir Dushaev / SABIR VAULT. All Rights Reserved.
 
-NOTICE: All information contained herein is, and remains the property of 
-Sabir Dushaev / SABIR VAULT. The intellectual property, source code, 
-algorithmic concepts, and documentation contained in this repository are 
-proprietary and confidential.
+**NOTICE:** All information contained herein is, and remains the intellectual property
+and exclusive proprietary trade secret of Sabir Dushaev and SABIR VAULT. 
+The algorithms, architectural concepts, mathematical formal verification models, 
+taxonomies, documentation, and source code contained in this repository are strictly 
+protected under international copyright laws, trade secret protections, and 
+applicable patent laws.
 
-PERMISSIONS:
-- You may view and fork this repository for reference purposes only.
-- You may not use, copy, modify, merge, publish, distribute, sublicense, 
-  or sell copies of the Software without prior written permission from 
-  the copyright holder.
+---
 
-RESTRICTIONS:
-- Redistribution of source code or any derivative works is strictly forbidden.
-- Commercial use requires a separate Enterprise License Agreement.
-- Reverse engineering, decompilation, or disassembly of the Software is 
-  strictly prohibited.
+## 1. PERMITTED USE (PUBLIC DOCUMENTATION & EVALUATION)
 
-DISCLAIMER:
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR 
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, 
-FITNESS FOR A PARTICULAR PURPOSE, AND NONINFRINGEMENT.
+1.1 **Evaluation Rights:** You may view, read, and fork this documentation repository 
+    strictly for technical reference, academic review, and non-commercial 
+    evaluation purposes.
 
-For commercial licensing, enterprise evaluation, or partnership inquiries:
-Email: contact@sabirvault.com
-Website: https://www.sabirvault.com
+1.2 **Attribution Requirement:** Any reference, quotation, or citation of this 
+    methodology must include full attribution to:
+    > **"SABIR VAULT / Sabir Dushaev"**
+
+1.3 **Internal Use:** Organizations may use the documentation for internal 
+    technical evaluation only, provided no derivative works are created and 
+    no commercial advantage is derived.
+
+---
+
+## 2. COMMERCIAL RESTRICTIONS
+
+2.1 **Prohibited Activities:** Commercial deployment, reproduction, distribution, 
+    sublicensing, or integration of the software, architecture, algorithms, or 
+    derivative works is strictly prohibited without an executed Enterprise 
+    License Agreement from the copyright holder.
+
+2.2 **Reverse Engineering:** Reverse engineering, decompilation, disassembly, 
+    extraction, or reconstruction of the underlying engine, algorithms, rule bases, 
+    or data models is strictly forbidden under any circumstances.
+
+2.3 **Competitive Intelligence:** Use of this documentation to develop competitive 
+    forensic, legal AI, or due diligence products is expressly prohibited.
+
+2.4 **No Implied License:** Nothing in this agreement shall be construed as 
+    granting any license or right to use the Software or Documentation except 
+    as expressly provided herein.
+
+---
+
+## 3. CONFIDENTIALITY OBLIGATIONS (NDA)
+
+3.1 **Protected Information:** All documentation, source code, algorithms, 
+    verification models, taxonomies, and technical data contained herein shall 
+    be treated as Confidential Information.
+
+3.2 **Obligations:** Recipient agrees to:
+    - (a) Hold Confidential Information in strict confidence
+    - (b) Not disclose Confidential Information to third parties without prior 
+      written consent
+    - (c) Use Confidential Information solely for authorized evaluation purposes
+    - (d) Implement reasonable security measures to prevent unauthorized access
+
+3.3 **Exceptions:** Confidential Information shall not include information that:
+    - (a) Becomes publicly available through no fault of Recipient
+    - (b) Was independently developed without use of Confidential Information
+    - (c) Was lawfully received from a third party without restriction
+
+---
+
+## 4. DISCLAIMER OF WARRANTIES
+
+4.1 **"AS IS" Basis:** THE SOFTWARE AND DOCUMENTATION ARE PROVIDED "AS IS", 
+    WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED 
+    TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE, 
+    AND NONINFRINGEMENT.
+
+4.2 **No Guarantee:** SABIR VAULT does not warrant that the Software will meet 
+    specific requirements, be error-free, or operate uninterrupted.
+
+4.3 **Experimental Nature:** Some features, particularly in the perception layer, 
+    are based on AI/ML models and may produce variable results. All final 
+    determinations require Human-in-the-Loop verification.
+
+---
+
+## 5. LIMITATION OF LIABILITY
+
+5.1 **Zero Liability for Decisions:** SABIR VAULT shall not be liable for any 
+    legal, financial, or business decisions made based on the Software output. 
+    All decisions require independent legal verification.
+
+5.2 **Cap on Damages:** IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE 
+    LIABLE FOR ANY CLAIM, DAMAGES, OR OTHER LIABILITY ARISING FROM, OUT OF, OR 
+    IN CONNECTION WITH THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+5.3 **Excluded Damages:** Under no circumstances shall SABIR VAULT be liable for 
+    indirect, incidental, special, consequential, or punitive damages.
+
+---
+
+## 6. TERM AND TERMINATION
+
+6.1 **Term:** This Agreement is effective as of the Effective Date and continues 
+    until terminated.
+
+6.2 **Termination by Recipient:** Recipient may terminate this Agreement at any 
+    time by destroying all copies of the Documentation and Confidential Information.
+
+6.3 **Termination by Licensor:** SABIR VAULT may terminate this Agreement immediately 
+    upon:
+    - (a) Breach of any provision by Recipient
+    - (b) Unauthorized disclosure of Confidential Information
+    - (c) Commercial use without authorization
+
+6.4 **Survival:** All confidentiality, disclaimer, and limitation of liability 
+    obligations shall survive termination.
+
+---
+
+## 7. GOVERNING LAW AND JURISDICTION
+
+7.1 **Governing Law:** This Agreement shall be governed by and construed in 
+    accordance with the laws of Ukraine.
+
+7.2 **Dispute Resolution:** Any dispute arising out of or in connection with 
+    this Agreement shall be resolved through:
+    - (a) Good faith negotiations between the parties
+    - (b) If unresolved, binding arbitration in accordance with the rules of 
+      the International Commercial Arbitration Court at the Ukrainian 
+      Chamber of Commerce and Industry
+    - (c) Arbitration shall be conducted in Kyiv, Ukraine, in the English language
+
+---
+
+## 8. GENERAL PROVISIONS
+
+8.1 **Entire Agreement:** This Agreement constitutes the entire agreement between 
+    the parties concerning the subject matter hereof.
+
+8.2 **Amendment:** No amendment to this Agreement shall be effective unless in 
+    writing and signed by both parties.
+
+8.3 **Waiver:** Failure to enforce any provision shall not constitute a waiver 
+    of such provision or any other provision.
+
+8.4 **Severability:** If any provision is found to be invalid or unenforceable, 
+    the remaining provisions shall continue in full force and effect.
+
+8.5 **Export Control:** Recipient shall comply with all applicable export control 
+    laws and regulations.
+
+8.6 **U.S. Government Users:** For U.S. Government users, this Software is 
+    commercial computer software developed at private expense and is provided 
+    with limited rights as specified in applicable regulations.
+
+---
+
+## FOR ENTERPRISE INQUIRIES
+
+**For enterprise evaluation, commercial licensing agreements, or partnership inquiries:**
+
+- 🌐 **Official Website:** https://www.sabirvault.com
+- ✉️ **Enterprise Inquiries:** contact@sabirvault.com
+- 🔐 **Security Reports:** contact@sabirvault.com
+
+---
+
+## ACKNOWLEDGMENT
+
+By viewing, accessing, or using any part of this repository or documentation, 
+you acknowledge that you have read, understood, and agree to be bound by the 
+terms of this License Agreement. If you do not agree to these terms, you must 
+immediately cease access and destroy all copies of the Documentation.
+
+---
+
+© 2026 SABIR VAULT. All rights reserved.  
+*Proprietary and Confidential — Enterprise License Agreement*
