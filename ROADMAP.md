@@ -136,8 +136,10 @@ Q4 2027 ████████████████████ Phase 4 (RW
 Channel	Details
 🌐 Website	www.sabirvault.com
 ✉️ Enterprise Inquiries	contact@sabirvault.com
+🔐 Security Reports	security@sabirvault.com
 📌 Status	Private Enterprise Development
 📜 License	Proprietary / Enterprise Evaluation License
 <br>
 <sub>© 2026 SABIR VAULT. All rights reserved. Proprietary Enterprise Software.</sub>
 </div>
+```
