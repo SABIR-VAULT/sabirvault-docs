@@ -104,7 +104,6 @@
 
 ---
 
-## 🗓️ Timeline
 Q1 2026 ████████████████████ Phase 1 (Core Engine)
 Q2 2026 ████████████████████ Phase 1 (Core Engine)
 Q2 2026 ████████████████████ Phase 2 (Verification)
