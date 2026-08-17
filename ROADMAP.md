@@ -137,7 +137,6 @@ Q4 2027 ████████████████████ Phase 4 (RW
 |---|---|
 | 🌐 **Website** | [www.sabirvault.com](https://www.sabirvault.com) |
 | ✉️ **Enterprise Inquiries** | [contact@sabirvault.com](mailto:contact@sabirvault.com) |
-| 🔐 **Security Reports** | [security@sabirvault.com](mailto:security@sabirvault.com) |
 | 📌 **Status** | Private Enterprise Development |
 | 📜 **License** | Proprietary / Enterprise Evaluation License |
 
