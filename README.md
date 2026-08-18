@@ -130,9 +130,7 @@ flowchart TD
     style G fill:#1a202c,stroke:#805ad5,stroke-width:2px,color:#e2e8f0
     style H fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
     style I fill:#1a202c,stroke:#48bb78,stroke-width:2px,color:#ffffff
-```
-
-> **Note:** If the Mermaid diagram does not render, view it directly on [GitHub Mermaid](https://mermaid.live/) or refer to [ARCHITECTURE.md](./ARCHITECTURE.md) for a static version.
+Note: If the Mermaid diagram does not render, view it directly on GitHub Mermaid or refer to ARCHITECTURE.md for a static version.
 🏆 Verified Macro Benchmarks
 
 Benchmark Dossier	Volume	Target Schemes Planted	Performance & Result
