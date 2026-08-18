@@ -21,6 +21,7 @@
 **SABIR VAULT** is an enterprise-grade, local-first forensic due diligence platform. It transforms complex, unstructured document collections (PDFs, raw scans, bank statements, handwritten notes, XLSX tables) into verified digital dossiers, interactive relationship graphs, and court-ready evidence matrices.
 
 ### 💡 Core Architectural Principle: *AI Reads, Deterministic Code Decides*
+
 - 👁️ **Perception Layer:** Powered by an on-device **9-Billion parameter multimodal Vision-LLM** strictly confined to high-accuracy OCR, handwriting recognition, and notary stamp perception. **AI never makes legal or financial deductions.**
 - 🧮 **Deterministic Forensic Kernel:** 100% of entity resolution, graph topologies, biological invariants, financial delta reconciliations, and fraud detections are executed by formal mathematical algorithms with **zero probabilistic hallucinations**.
 
@@ -40,11 +41,12 @@ Above the deterministic kernel operates a **bounded-perceptron scoring layer** t
 ---
 
 ## 🏗️ Three-Contour Defense-in-Depth
-Contour 1 — RECON → 6 investigation routes → initial scoring
-Contour 2 — DEEP → per-document facts → independent re-scoring
-Contour 3 — KERNEL → digest sections → CRM profile
 
-text
+```
+Contour 1 — RECON    → 6 investigation routes → initial scoring
+Contour 2 — DEEP     → per-document facts → independent re-scoring
+Contour 3 — KERNEL   → digest sections → CRM profile
+```
 
 > Contour disagreement → mandatory review flag.
 
@@ -133,45 +135,66 @@ flowchart TD
 ```
 
 > **Note:** If the Mermaid diagram does not render, view it directly on [GitHub Mermaid](https://mermaid.live/) or refer to [ARCHITECTURE.md](./ARCHITECTURE.md) for a static version.
-🏆 Verified Macro Benchmarks
 
-Benchmark Dossier	Volume	Target Schemes Planted	Performance & Result
-Industrial M&A Fraud	500 documents	7 corporate & financial traps	✅ 7/7 signals + 6/6 routes (100% recall)
-Corporate Bankruptcy & Asset Stripping	295 documents	7 debt & promissory note schemes	✅ 6/6 routes + 3M UAH detected
-100% deterministic reproducibility across 800 real-world benchmark documents.
-⚡ Incremental re-run: 19 seconds | Memory safety: Zero OOM events.
+---
 
-🎯 Target Solutions
+## 🏆 Verified Macro Benchmarks
 
-Solution	Description
-📋 Digital Dossiers	Transform 500+ unorganized document scans into a structured master dossier within minutes.
-🔍 M&A Due Diligence	Rapidly audit Data Rooms, asset title history, ownership chains, and missing document compliance.
-💸 Forensic Cashflow & AML	Trace 3-way matching (Invoice ↔ Act ↔ Bank), VAT carousels, and unbacked promissory notes.
-⚖️ Corporate & Family Compliance	Uncover conflicts of interest, related-party proxy chains, and generational kinship networks.
-🌐 RWA Legal Clearance	Prepare tamper-proof legal packages with SHA-256 evidence seals for Real World Asset (RWA) tokenization.
-⚖️ Regulatory Posture
+| Benchmark Dossier | Volume | Target Schemes Planted | Performance & Result |
+|---|---|---|---|
+| **Industrial M&A Fraud** | 500 documents | 7 corporate & financial traps | ✅ 7/7 signals + 6/6 routes (100% recall) |
+| **Corporate Bankruptcy & Asset Stripping** | 295 documents | 7 debt & promissory note schemes | ✅ 6/6 routes + 3M UAH detected |
 
-EU AI Act compliant: deterministic kernel + human-in-the-loop + immutable audit trail
-GDPR compliant: 100% air-gapped; zero cloud; zero third-party APIs
-UA Bankruptcy Code Art. 42: asset-stripping → voidable-transaction claims
-⚖️ Important Notice
+**100% deterministic reproducibility** across 800 real-world benchmark documents.  
+⚡ **Incremental re-run:** 19 seconds | **Memory safety:** Zero OOM events.
 
-[!IMPORTANT]
-Legal Disclaimer
+---
 
-SABIR VAULT is an IT analytical software platform and does not constitute a law firm or render legal advice. The platform prepares structured digital dossiers and mathematical risk flags to support professional analysis, auditing, and decision-making by qualified experts.
+## 🎯 Target Solutions
 
-All forensic findings require independent legal verification by qualified professionals. SABIR VAULT assumes no liability for business or legal decisions made based on platform outputs.
-📞 Contact & Evaluation
+| Solution | Description |
+|---|---|
+| 📋 **Digital Dossiers** | Transform 500+ unorganized document scans into a structured master dossier within minutes. |
+| 🔍 **M&A Due Diligence** | Rapidly audit Data Rooms, asset title history, ownership chains, and missing document compliance. |
+| 💸 **Forensic Cashflow & AML** | Trace 3-way matching (Invoice ↔ Act ↔ Bank), VAT carousels, and unbacked promissory notes. |
+| ⚖️ **Corporate & Family Compliance** | Uncover conflicts of interest, related-party proxy chains, and generational kinship networks. |
+| 🌐 **RWA Legal Clearance** | Prepare tamper-proof legal packages with SHA-256 evidence seals for Real World Asset (RWA) tokenization. |
 
-Purpose	Contact
-🌐 Website	www.sabirvault.com
-✉️ Enterprise Inquiries	contact@sabirvault.com
-📌 Status	Private Enterprise Development
-📜 License	Proprietary / Enterprise Evaluation License
-📄 Repository Structure
+---
 
-text
+## ⚖️ Regulatory Posture
+
+- **EU AI Act compliant:** deterministic kernel + human-in-the-loop + immutable audit trail
+- **GDPR compliant:** 100% air-gapped; zero cloud; zero third-party APIs
+- **UA Bankruptcy Code Art. 42:** asset-stripping → voidable-transaction claims
+
+---
+
+## ⚖️ Important Notice
+
+> [!IMPORTANT]
+> **Legal Disclaimer**
+>
+> SABIR VAULT is an IT analytical software platform and does not constitute a law firm or render legal advice. The platform prepares structured digital dossiers and mathematical risk flags to support professional analysis, auditing, and decision-making by qualified experts.
+>
+> All forensic findings require **independent legal verification** by qualified professionals. SABIR VAULT assumes no liability for business or legal decisions made based on platform outputs.
+
+---
+
+## 📞 Contact & Evaluation
+
+| Purpose | Contact |
+|---|---|
+| 🌐 **Website** | [www.sabirvault.com](https://www.sabirvault.com) |
+| ✉️ **Enterprise Inquiries** | [contact@sabirvault.com](mailto:contact@sabirvault.com) |
+| 📌 **Status** | Private Enterprise Development |
+| 📜 **License** | Proprietary / Enterprise Evaluation License |
+
+---
+
+## 📄 Repository Structure
+
+```text
 sabirvault-docs/
 ├── README.md                          # This file
 ├── LICENSE                            # Proprietary License Agreement
@@ -183,10 +206,15 @@ sabirvault-docs/
 └── docs/
     ├── public/                        # Public documentation
     └── private/                       # Confidential (NDA required)
+```
+
+---
+
 <div align="center">
-© 2026 SABIR VAULT. All rights reserved.
-Proprietary and Confidential — Enterprise Documentation
 
-https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%253A%252F%252Fgithub.com%252Fsabirvault%252Fsabirvault-docs&count_bg=%252379C83D&title_bg=%2523555555&icon=&icon_color=%2523E7E7E7&title=views&edge_flat=false
+**© 2026 SABIR VAULT. All rights reserved.**  
+*Proprietary and Confidential — Enterprise Documentation*
 
-</div> ```
+[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsabirvault%2Fsabirvault-docs&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
+
+</div>
