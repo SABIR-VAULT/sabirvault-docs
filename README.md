@@ -26,11 +26,35 @@
 
 ---
 
+## 🧠 Self-Adaptive Risk Scoring
+
+Above the deterministic kernel operates a **bounded-perceptron scoring layer** that evolves with analyst feedback:
+
+- **6 continuous forensic signals** → risk voltage → automated BLOCKED status
+- **4 higher-order meta-archetypes** classify complex fraud schemes
+- **Constitutional guardrails** ensure safe weight updates
+- **Immutable feedback audit log** captures every analyst verdict
+
+**Key takeaway:** the platform compounds expertise — every lawyer verdict permanently improves scoring.
+
+---
+
+## 🏗️ Three-Contour Defense-in-Depth
+Contour 1 — RECON → 6 investigation routes → initial scoring
+Contour 2 — DEEP → per-document facts → independent re-scoring
+Contour 3 — KERNEL → digest sections → CRM profile
+
+text
+
+> Contour disagreement → mandatory review flag.
+
+---
+
 ## 📌 Quick Links
 
 - 📜 **[Verification White Paper (v2.7)](./VERIFICATION_WHITEPAPER.md)** — Mathematical proof by exhaustion (141 states, 32 satellites, 376+ checks)
 - 🏗️ **[System Architecture](./ARCHITECTURE.md)** — High-level data flow, 9B Vision perception, and core subsystems
-- 📦 **[Changelog](./CHANGELOG.md)** — Release notes and macro benchmark milestone results
+- 📦 **[Release Notes](./RELEASE_NOTES.md)** — Release notes and macro benchmark milestone results
 - 🛡️ **[Security Model](./SECURITY.md)** — Zero-Trust ingestion, antivirus sandbox, and SHA-256 evidence seals
 - 📜 **[License Agreement](./LICENSE)** — Enterprise proprietary and confidential license
 
@@ -48,6 +72,9 @@ All processing occurs entirely on private, on-device enterprise hardware (Apple 
 
 **🧮 5-Tier Formal Verification**  
 376+ automated checks on every commit, including 141 formally proven mathematical states across 6 universal fraud archetypes.
+
+**🧠 Self-Learning Without Risk**  
+Bounded perceptron with constitutional guardrails — every lawyer verdict improves scoring while preventing model poisoning.
 
 **🛣️ Six Investigation Routes**  
 Autonomous scenario builder mapping financial delta leaks (12M vs 9.5M), corporate control shifts (47-day window), proxy hops, post-mortem signature conflicts, debt concealment, and asset stripping.
@@ -70,6 +97,9 @@ Stateful split-view workspace allowing legal counsel to verify anchors, kinship 
 **🧮 5-Рівнева Математична Верифікація**  
 376+ автоматичних перевірок на кожному коміті, включаючи 141 математично доведений стан у 6 світових архетипах фінансового шахрайства.
 
+**🧠 Самонавчання Без Ризику**  
+Bounded perceptron з конституційними guardrails — кожен вердикт юриста покращує скоринг без ризику отруєння моделі.
+
 **🛣️ Шість Сюжетів Розслідування**  
 Автономний рушій сценаріїв, що розкриває грошові розриви (12M vs 9.5M), зміну контролю за 47 днів до угоди, схеми номіналів («теща-мільйонер»), підписи мерців та фіктивні векселі.
 
@@ -86,90 +116,75 @@ flowchart TD
     B --> C[👁️ Local 9B Vision-LLM Sensor<br/><i>Autofocus / Crop / Handwriting OCR</i>]
     C --> D[🧮 Deterministic Forensic Kernel<br/><i>Graph Theory / Constitutional Shields</i>]
     D --> E[🛣️ Investigation Route Engine<br/><i>6 Autonomous Forensic Narrative Tracers</i>]
-    E --> F[👤 Human-in-the-Loop Workbench<br/><i>2-3 Min Verification / Organizer</i>]
-    F --> G[📊 Verified Digital Dossier<br/><i>HTML Dashboard / Relation Graph / SHA-256</i>]
+    E --> F[🧠 Self-Adaptive Risk Scoring<br/><i>Bounded Perceptron / 4 Meta-Archetypes</i>]
+    F --> G[🏗️ Three-Contour Defense<br/><i>RECON → DEEP → KERNEL</i>]
+    G --> H[👤 Human-in-the-Loop Workbench<br/><i>2-3 Min Verification / Organizer</i>]
+    H --> I[📊 Verified Digital Dossier<br/><i>HTML Dashboard / CRM Profile / SHA-256</i>]
 
     style A fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
     style B fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
     style C fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
     style D fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
     style E fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
-    style F fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
-    style G fill:#1a202c,stroke:#48bb78,stroke-width:2px,color:#ffffff
-```
+    style F fill:#1a202c,stroke:#805ad5,stroke-width:2px,color:#e2e8f0
+    style G fill:#1a202c,stroke:#805ad5,stroke-width:2px,color:#e2e8f0
+    style H fill:#1a202c,stroke:#4a5568,stroke-width:2px,color:#e2e8f0
+    style I fill:#1a202c,stroke:#48bb78,stroke-width:2px,color:#ffffff
+Note: If the Mermaid diagram does not render, view it directly on GitHub Mermaid or refer to ARCHITECTURE.md for a static version.
+🏆 Verified Macro Benchmarks
 
-> **Note:** If the Mermaid diagram does not render, view it directly on [GitHub Mermaid](https://mermaid.live/) or refer to [ARCHITECTURE.md](./ARCHITECTURE.md) for a static version.
+Benchmark Dossier	Volume	Target Schemes Planted	Performance & Result
+Industrial M&A Fraud	500 documents	7 corporate & financial traps	✅ 7/7 signals + 6/6 routes (100% recall)
+Corporate Bankruptcy & Asset Stripping	295 documents	7 debt & promissory note schemes	✅ 6/6 routes + 3M UAH detected
+100% deterministic reproducibility across 800 real-world benchmark documents.
+⚡ Incremental re-run: 19 seconds | Memory safety: Zero OOM events.
 
----
+🎯 Target Solutions
 
-## 🏆 Verified Macro Benchmarks
+Solution	Description
+📋 Digital Dossiers	Transform 500+ unorganized document scans into a structured master dossier within minutes.
+🔍 M&A Due Diligence	Rapidly audit Data Rooms, asset title history, ownership chains, and missing document compliance.
+💸 Forensic Cashflow & AML	Trace 3-way matching (Invoice ↔ Act ↔ Bank), VAT carousels, and unbacked promissory notes.
+⚖️ Corporate & Family Compliance	Uncover conflicts of interest, related-party proxy chains, and generational kinship networks.
+🌐 RWA Legal Clearance	Prepare tamper-proof legal packages with SHA-256 evidence seals for Real World Asset (RWA) tokenization.
+⚖️ Regulatory Posture
 
-| Benchmark Dossier | Volume | Target Schemes Planted | Performance & Result |
-|---|---|---|---|
-| **Industrial M&A Fraud** | 500 documents | 7 corporate & financial traps | ✅ 7/7 signals + 6/6 routes (100% recall) |
-| **Corporate Bankruptcy & Asset Stripping** | 295 documents | 7 debt & promissory note schemes | ✅ 6/6 routes + 5M UAH note detected |
+EU AI Act compliant: deterministic kernel + human-in-the-loop + immutable audit trail
+GDPR compliant: 100% air-gapped; zero cloud; zero third-party APIs
+UA Bankruptcy Code Art. 42: asset-stripping → voidable-transaction claims
+⚖️ Important Notice
 
-**100% deterministic reproducibility** across 800 real-world benchmark documents.
+[!IMPORTANT]
+Legal Disclaimer
 
----
+SABIR VAULT is an IT analytical software platform and does not constitute a law firm or render legal advice. The platform prepares structured digital dossiers and mathematical risk flags to support professional analysis, auditing, and decision-making by qualified experts.
 
-## 🎯 Target Solutions
+All forensic findings require independent legal verification by qualified professionals. SABIR VAULT assumes no liability for business or legal decisions made based on platform outputs.
+📞 Contact & Evaluation
 
-| Solution | Description |
-|---|---|
-| 📋 **Digital Dossiers** | Transform 500+ unorganized document scans into a structured master dossier within minutes. |
-| 🔍 **M&A Due Diligence** | Rapidly audit Data Rooms, asset title history, ownership chains, and missing document compliance. |
-| 💸 **Forensic Cashflow & AML** | Trace 3-way matching (Invoice ↔ Act ↔ Bank), VAT carousels, and unbacked promissory notes. |
-| ⚖️ **Corporate & Family Compliance** | Uncover conflicts of interest, related-party proxy chains, and generational kinship networks. |
-| 🌐 **RWA Legal Clearance** | Prepare tamper-proof legal packages with SHA-256 evidence seals for Real World Asset (RWA) tokenization. |
+Purpose	Contact
+🌐 Website	www.sabirvault.com
+✉️ Enterprise Inquiries	contact@sabirvault.com
+📌 Status	Private Enterprise Development
+📜 License	Proprietary / Enterprise Evaluation License
+📄 Repository Structure
 
----
-
-## ⚖️ Important Notice
-
-> [!IMPORTANT]
-> **Legal Disclaimer**
->
-> SABIR VAULT is an IT analytical software platform and does not constitute a law firm or render legal advice. The platform prepares structured digital dossiers and mathematical risk flags to support professional analysis, auditing, and decision-making by qualified experts.
->
-> All forensic findings require **independent legal verification** by qualified professionals. SABIR VAULT assumes no liability for business or legal decisions made based on platform outputs.
-
----
-
-## 📞 Contact & Evaluation
-
-| Purpose | Contact |
-|---|---|
-| 🌐 **Website** | [www.sabirvault.com](https://www.sabirvault.com) |
-| ✉️ **Enterprise Inquiries** | [contact@sabirvault.com](mailto:contact@sabirvault.com) |
-| 📌 **Status** | Private Enterprise Development |
-| 📜 **License** | Proprietary / Enterprise Evaluation License |
-
----
-
-## 📄 Repository Structure
-
-```text
+text
 sabirvault-docs/
 ├── README.md                          # This file
 ├── LICENSE                            # Proprietary License Agreement
 ├── VERIFICATION_WHITEPAPER.md         # Formal verification documentation
 ├── ARCHITECTURE.md                    # System architecture overview
-├── CHANGELOG.md                       # Release notes & milestones
+├── RELEASE_NOTES.md                   # Release notes & milestones
 ├── SECURITY.md                        # Security model & best practices
 ├── ROADMAP.md                         # Product roadmap & timeline
 └── docs/
     ├── public/                        # Public documentation
     └── private/                       # Confidential (NDA required)
-```
-
----
-
 <div align="center">
+© 2026 SABIR VAULT. All rights reserved.
+Proprietary and Confidential — Enterprise Documentation
 
-**© 2026 SABIR VAULT. All rights reserved.**  
-*Proprietary and Confidential — Enterprise Documentation*
-
-[![Hits](https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fsabirvault%2Fsabirvault-docs&count_bg=%2379C83D&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=views&edge_flat=false)](https://hits.seeyoufarm.com)
+https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%253A%252F%252Fgithub.com%252Fsabirvault%252Fsabirvault-docs&count_bg=%252379C83D&title_bg=%2523555555&icon=&icon_color=%2523E7E7E7&title=views&edge_flat=false
 
 </div>
